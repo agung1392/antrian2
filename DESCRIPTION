@@ -1,0 +1,19 @@
+Package: antrian2
+Type: Package
+Title: Simulasi Sistem Kejadian Diskret
+Description: Paket pelengkap lecturer note untuk "Simulasi Sistem Kejadian Diskret"
+Version: 0.1.0
+Authors@R: person("Anom", "Yudistira", email = "i.yudistira@binus.ac.id", role = c("aut", "cre"))
+Depends: R (>= 4.2.1), simmer, tidyverse
+Encoding: UTF-8
+LazyData: true
+Imports:
+  simmer,
+  tidyverse
+RoxygenNote: 7.2.2
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
